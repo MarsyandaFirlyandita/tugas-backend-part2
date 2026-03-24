@@ -1,0 +1,159 @@
+:root {
+  --mainColor: #252734;
+  --secondaryColor: #333646;
+  --acsentColor: #ff9100;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: "ubuntu", sans-serif;
+}
+
+section h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+/* navbar */
+.nav-link.active {
+  color: var(--acsentColor) !important;
+  font-weight: 700;
+}
+/* terkahir navbar */
+
+/* hero */
+.color-acsent {
+  color: var(--acsentColor);
+}
+
+#hero {
+  color: #fff;
+  min-height: 100vh;
+}
+
+#hero h1 {
+  font-size: 3 rem;
+}
+
+#hero h2 {
+  font-weight: 300;
+}
+
+#hero p {
+  font-size: 1.1 rem;
+}
+
+/* cta */
+.btn-custom-1 {
+  background-color: var(--acsentColor);
+  text-align: center;
+  color: #fff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2 rem;
+}
+
+.btn-custom-1:hover {
+  box-shadow: 0 0 5px rgb(255, 166, 0, 0.8);
+}
+
+.cv {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1 rem;
+}
+
+.social-icon svg {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+
+.social-icon-icon svg{
+  margin-right: .7em;
+  margin-bottom: 10px;
+}
+/* end hero */
+
+/* about */
+hr {
+  width: 35%;
+  height: 5px;
+  color: var(--acsentColor);
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#about {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+/* end about */
+
+/* skill */
+#skill {
+  min-height: 600px;
+  width: 100%;
+  color: #fff;
+}
+
+#skill img {
+  width: 12%;
+  margin: 10px;
+}
+
+#skill .card {
+  background-color: #414558;
+  height: 340px;
+}
+
+#skill .card:hover {
+  background-color: var(--acsentColor);
+  transition: 300ms ease;
+}
+
+.skill-content {
+  margin-top: 120px;
+}
+/* end skill */
+
+/* sertifikat*/
+
+#sertifikat {
+  margin-top: -170px;
+  padding: 270px;
+  padding-bottom: 80px;
+  background-color: var(--secondaryColor);
+}
+
+#sertifikat p,
+a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+#sertifikat img {
+  width: 49%;
+  padding: 10px;
+}
+/* terakhir sertifikat */
+
+/* galeri */
+#portofolio .container {
+  padding: 80px 10px;
+
+}
+/* end galeri */
+
+/* footer */
+.py-5 img {
+  width: 10%;
+  margin: 10px;
+}
+/* footer */
